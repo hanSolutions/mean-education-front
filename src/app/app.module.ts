@@ -7,12 +7,14 @@ import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { MoviesListComponent } from './components/movies-list/movies-list.component';
 import { CharactersListComponent } from './components/characters-list/characters-list.component';
+import { MovieComponent } from './components/movie/movie.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MoviesListComponent,
-    CharactersListComponent
+    CharactersListComponent,
+    MovieComponent
   ],
   imports: [
     BrowserModule,
